@@ -2,12 +2,15 @@
   "name": "x-editable-bs4",
   "title": "x-editable-bs4",
   "description": "In-place editing with Twitter Bootstrap, jQuery UI or pure jQuery",
-  "version": "1.5.4",
+  "version": "1.5.5",
   "homepage": "https://github.com/haught/x-editable-bs4",
   "author": {
     "name": "Vitaliy Potapov",
     "email": "noginsk@rambler.ru"
   },
+  "contributors": [
+    {"name":"Matt Haught","url":"https://github.com/haught"}
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com:haught/x-editable-bs4.git"
