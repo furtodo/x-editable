@@ -4699,7 +4699,7 @@ onDOMContentLoaded(() => {
 
                 //for bs3 set default class `input-sm` to standard inputs
                 var emptyInputClass = this.input.options.inputclass === null || this.input.options.inputclass === false;
-                var defaultClass = 'input-sm';
+                var defaultClass = 'form-control-sm';
 
                 //bs3 add `form-control` class to standard inputs
                 var stdtypes = 'text,select,textarea,password,email,url,tel,number,range,time,typeaheadjs'.split(',');
@@ -4721,7 +4721,7 @@ onDOMContentLoaded(() => {
                         $btn.find('button').addClass('btn-sm');
                     }
                     */
-                    if(classes[i].toLowerCase() === 'input-lg') {
+                    if(classes[i].toLowerCase() === 'form-control-lg') {
                         $btn.find('button').removeClass('btn-sm').addClass('btn-lg');
                     }
                 }
