@@ -180,14 +180,15 @@
 .editable-click, 
 a.editable-click, 
 a.editable-click:hover {
+    color: #495046;
     text-decoration: none;
-    border-bottom: dashed 1px #0088cc;
+    border-bottom: dashed 1px #664dc9;
 }
 
 .editable-click.editable-disabled, 
 a.editable-click.editable-disabled, 
 a.editable-click.editable-disabled:hover {
-   color: #585858;  
+   color: #495046;
    cursor: default;
    border-bottom: none;
 }
